@@ -50,7 +50,7 @@ body{
 input{
 	width:100%;
 	border:0;
-	padding:5px;
+	padding:10px;
 	text-align:right;
 }
 .size01{
@@ -72,13 +72,16 @@ input{
 	border-radius:6px;
 }
 .margin01{
-	margin-top:5px;
+	margin-top:10px;
 }
 .margin02{
-	margin-bottom:30px;
+	margin-bottom:40px;
 }
 .margin03{
-	margin-right:10px;
+	margin:5px;
+}
+.padding01{
+	padding:10px;
 }
 .flex{
 	display:flex;
@@ -111,4 +114,8 @@ input{
 }
 .tip-box{
 	width:33.33333%;
+}
+#tip-amount-container{
+	margin-left:-5px;
+	margin-right:-5px;
 }
