@@ -18,6 +18,11 @@ export default class Top extends React.Component{
 				<div className='color02 font02'>Select Tip %</div>
 				<div id='tip-amount-container' className='margin01 margin02 flex size01'>
 					{this.draw_tip_amount_boxes()}
+					<div className='tip-box'>
+						<div className='flex-center'>
+							<input className='bg05 color01 border-radius02 margin03 padding01 font02 size01' placeholder='Custom' />
+						</div>
+					</div>
 				</div>
 				<div className='color02 font02'>Number of People</div>
 				<div className='relative'>
