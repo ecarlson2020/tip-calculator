@@ -7,10 +7,6 @@
 	src:url('fonts/SpaceMono-Bold.ttf');
 }
 /*--- GENERAL ----*/
-::placeholder{
-	color:hsl(189, 41%, 97%);
-	color:red;
-}
 .bg01{
 	background:hsl(183, 100%, 15%);/* - Very dark cyan */
 }
@@ -35,7 +31,7 @@
 .color02{
 	color:hsl(186, 14%, 43%);/* - Dark grayish cyan */
 }
-.color03{
+.color03, ::placeholder{
 	color:hsl(184, 14%, 56%);/* - Dark grayish cyan */
 }
 .color04{
@@ -93,3 +89,8 @@ input{
 	padding:30px;
 }
 /*--- TOP ----*/
+#bill-dollar-sign{
+	position:absolute;
+	margin-top:17px;
+	margin-left:17px;
+}
