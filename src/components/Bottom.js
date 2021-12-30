@@ -1,11 +1,21 @@
 import React from 'react'
-import {react_objs} from '../functions'
+import {react_objs, d} from '../functions'
 
 export default class Bottom extends React.Component{
-	get_tip_amount(){
-		var s = react_objs.main.state
+	get_main_state(){
+		return react_objs.main.state;
+	}
 
-		if(s.num_people && s.tip_percent && s.bill_amount){
+	is_filled_in(){
+		var s = this.get_main_state();
+
+		return s.num_people && s.tip_percent && s.bill_amount;
+	}
+
+	get_tip_amount(){
+		var s = this.get_main_state();
+
+		if(this.is_filled_in()){
 			return (
 				Math.trunc(
 					(s.bill_amount * s.tip_percent) / s.num_people
@@ -17,10 +27,9 @@ export default class Bottom extends React.Component{
 	}
 
 	get_total(){
-		var s = react_objs.main.state
+		var s = this.get_main_state();
 
-		console.log(s.num_people , s.tip_percent , s.bill_amount);
-		if(s.num_people && s.tip_percent && s.bill_amount){
+		if(this.is_filled_in()){
 			return (
 				Math.round(
 					(s.bill_amount * (1 + s.tip_percent / 100) * 100) / s.num_people
@@ -31,7 +40,21 @@ export default class Bottom extends React.Component{
 		return "0.00"
 	}
 
+	reset_button(){
+		d.querySelectorAll("input").forEach(el => {
+			el.value = '';
+		});
+
+		react_objs.main.setState({
+			num_people: null,
+			tip_percent: null,
+			bill_amount: null,
+		});
+	}
+
 	render(){
+		var s = this.get_main_state();
+
 		return (
 			<div id='bottom' className='bg01 color06 border-radius03 relative'>
 				<div className='padding02'>
@@ -50,7 +73,10 @@ export default class Bottom extends React.Component{
 						</div>
 					</div>
 				</div>
-				<div className='border-radius02 uppercase text-center font02 size01 bg02 button color01 padding01 cursor'>Reset</div>
+				<div
+					className={'transition border-radius02 uppercase text-center font02 size01 button padding01 cursor' + (s.num_people || s.tip_percent || s.bill_amount ? " bg07 color01" : " bg02 color01")}
+					onClick={() => this.reset_button()}
+				>Reset</div>
 			</div>
 		)
 	}

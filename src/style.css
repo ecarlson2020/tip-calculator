@@ -216,3 +216,6 @@ input:focus{
 	left:40px;
 	right:40px;
 }
+.transition{
+	transition:0.3s ease all;
+}
