@@ -59,6 +59,9 @@ input{
 	padding:10px 20px;
 	text-align:right;
 }
+.uppercase{
+	text-transform:uppercase;
+}
 .size01{
 	font-size:24px;
 }
@@ -157,4 +160,10 @@ input{
 	position:absolute;
 	right:0;
 	top:-5px;
+}
+.button{
+	position:absolute;
+	bottom:40px;
+	left:40px;
+	right:40px;
 }
