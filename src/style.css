@@ -92,6 +92,9 @@ input{
 	justify-content:center;
 	align-items:center;
 }
+.relative{
+	position:relative;
+}
 /*--- LOGO ----*/
 #logo{
 	margin:100px 0 50px 0;
@@ -107,10 +110,10 @@ input{
 #top{
 	width:50%;
 }
-#bill-dollar-sign{
+#dollar-svg, #person-svg{
 	position:absolute;
-	margin-top:17px;
-	margin-left:17px;
+	margin-top:29px;
+	margin-left:10px;
 }
 .tip-box{
 	width:33.33333%;

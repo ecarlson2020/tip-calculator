@@ -13,11 +13,16 @@ export default class Top extends React.Component{
 		return (
 			<div id='top'>
 				<div className='color02 font02'>Bill</div>
-				<img id='bill-dollar-sign' src='/images/icon-dollar.svg' />
+				<img id='dollar-svg' src='/images/icon-dollar.svg' />
 				<input className='border-radius02 margin01 margin02 bg05 font02 size01' type='text' placeholder='0' />
 				<div className='color02 font02'>Select Tip %</div>
 				<div id='tip-amount-container' className='margin01 margin02 flex size01'>
 					{this.draw_tip_amount_boxes()}
+				</div>
+				<div className='color02 font02'>Number of People</div>
+				<div className='relative'>
+					<img id='person-svg' src='/images/icon-person.svg' />
+					<input className='border-radius02 margin01 margin02 bg05 font02 size01' type='text' placeholder='0' />
 				</div>
 			</div>
 		)
