@@ -1,12 +1,3 @@
-/*
-	- Very dark cyan: hsl(183, 100%, 15%)
-	- Dark grayish cyan: hsl(186, 14%, 43%)
-	- Dark grayish cyan: hsl(184, 14%, 56%)
-	- Light grayish cyan: hsl(185, 41%, 84%)
-	- Light grayish cyan: hsl(189, 41%, 97%)
-	- White: hsl(0, 0%, 100%)
-
-*/
 @font-face{
 	font-family:'font01';
 	src:url('fonts/SpaceMono-Regular.ttf');
@@ -19,6 +10,42 @@
 ::placeholder{
 	color:hsl(189, 41%, 97%);
 	color:red;
+}
+.bg01{
+	background:hsl(183, 100%, 15%);/* - Very dark cyan */
+}
+.bg02{
+	background:hsl(186, 14%, 43%);/* - Dark grayish cyan */
+}
+.bg03{
+	background:hsl(184, 14%, 56%);/* - Dark grayish cyan */
+}
+.bg04, body{
+	background:hsl(185, 41%, 84%);/* - Light grayish cyan */
+}
+.bg05{
+	background:hsl(189, 41%, 97%);/* - Light grayish cyan */
+}
+.bg06{
+	background:hsl(0, 0%, 100%);/* - White */
+}
+.color01{
+	color:hsl(183, 100%, 15%);/* - Very dark cyan */
+}
+.color02{
+	color:hsl(186, 14%, 43%);/* - Dark grayish cyan */
+}
+.color03{
+	color:hsl(184, 14%, 56%);/* - Dark grayish cyan */
+}
+.color04{
+	color:hsl(185, 41%, 84%);/* - Light grayish cyan */
+}
+.color05{
+	color:hsl(189, 41%, 97%);/* - Light grayish cyan */
+}
+.color06{
+	color:hsl(0, 0%, 100%);/* - White */
 }
 body{
 	margin:0;
@@ -41,20 +68,6 @@ input{
 }
 .text-center{
 	text-align:center;
-}
-.bg01{
-	- Very dark cyan: hsl(183, 100%, 15%)
-	- Dark grayish cyan: hsl(186, 14%, 43%)
-	- Dark grayish cyan: hsl(184, 14%, 56%)
-	- Light grayish cyan: hsl(185, 41%, 84%)
-	- Light grayish cyan: hsl(189, 41%, 97%)
-	- White: hsl(0, 0%, 100%)
-}
-.bg02{
-	background:hsl(189, 41%, 97%);
-}
-.color01{
-	color:#777;
 }
 .border-radius01{
 	border-radius:15px;
