@@ -7,9 +7,14 @@
 	- White: hsl(0, 0%, 100%)
 
 */
+@font-face{
+	font-family:'font1';
+	src:url('fonts/SpaceMono-Regular.ttf');
+}
 /*--- GENERAL ----*/
 body{
 	margin:0;
+	font-family:'font1';
 }
 .text-center{
 	text-align:center;
@@ -20,6 +25,9 @@ body{
 .border-radius01{
 	border-radius:15px;
 }
+.grey01{
+	color:#ccc;
+}
 /*--- LOGO ----*/
 #logo{
 	margin:100px 0 50px 0;
@@ -29,4 +37,6 @@ body{
 	background:#fff;
 	margin:0 auto;
 	width:70%;
+	padding:30px;
 }
+/*--- TOP ----*/
