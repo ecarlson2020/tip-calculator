@@ -25,6 +25,9 @@
 .bg06{
 	background:hsl(0, 0%, 100%);/* - White */
 }
+.bg07{
+	background:hsl(172, 67%, 45%)
+}
 .color01{
 	color:hsl(183, 100%, 15%);/* - Very dark cyan */
 }
@@ -43,6 +46,9 @@
 .color06{
 	color:hsl(0, 0%, 100%);/* - White */
 }
+.color07{
+	color:hsl(172, 67%, 45%)
+}
 body{
 	margin:0;
 	font-family:'font01';
@@ -55,6 +61,12 @@ input{
 }
 .size01{
 	font-size:24px;
+}
+.size02{
+	font-size:14px;
+}
+.size03{
+	font-size:40px;
 }
 .font01{
 	font-family:'font01';
@@ -84,10 +96,16 @@ input{
 	margin:5px;
 }
 .margin04{
-	padding:0 15px;
+	margin:0 15px;
+}
+.margin05{
+	margin-top:50px;
 }
 .padding01{
 	padding:5px;
+}
+.padding02{
+	padding:0 40px;
 }
 .flex{
 	display:flex;
@@ -134,4 +152,9 @@ input{
 /*--- BOTTOM ----*/
 #bottom{
 	margin-left:20px;
+}
+.big-dollar{
+	position:absolute;
+	right:0;
+	top:-5px;
 }
