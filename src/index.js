@@ -11,6 +11,7 @@ class Root extends React.Component{
 					<img id='logo' src='/images/logo.svg' />
 				</div>
 				<Main />
+				<img src='/design/desktop-design-empty.jpg' />
 			</div>
 		)
 	}
