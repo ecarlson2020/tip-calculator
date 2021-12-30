@@ -60,6 +60,9 @@ input[type=number] {
 .color07{
 	color:hsl(172, 67%, 45%)
 }
+.color08{
+	color:hsl(13deg 59% 59%);/* - Red */
+}
 body{
 	margin:0;
 	font-family:'font01';
@@ -72,7 +75,7 @@ input{
 	transition:0.3s ease border;
 }
 input:focus{
-	outline:2px solid hsl(172, 67%, 45%) !important;
+	outline:2px solid hsl(172, 67%, 45%);
 }
 .uppercase{
 	text-transform:uppercase;
@@ -128,6 +131,9 @@ input:focus{
 .padding02{
 	padding:0 40px;
 }
+.float-right{
+	float:right;
+}
 .flex{
 	display:flex;
 	flex-wrap:wrap;
@@ -172,6 +178,15 @@ input:focus{
 }
 .custom-button{
 	padding-right:19%;
+}
+.num-people-is-zero input:focus{
+	outline:2px solid hsl(13deg 59% 59%);/* - Red */
+}
+.cant-be-zero{
+	display:none;
+}
+.num-people-is-zero .cant-be-zero{
+	display:block;
 }
 /*--- BOTTOM ----*/
 #bottom{
