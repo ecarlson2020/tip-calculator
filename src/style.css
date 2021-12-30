@@ -114,7 +114,7 @@ input:focus{
 	margin-top:10px;
 }
 .margin02{
-	margin-bottom:40px;
+	margin-bottom:50px;
 }
 .margin03{
 	margin:5px;
@@ -148,13 +148,14 @@ input:focus{
 }
 /*--- LOGO ----*/
 #logo{
-	margin:100px 0 50px 0;
+	margin-top:100px;
 }
 /*--- MAIN ----*/
 #main{
 	background:#fff;
-	margin:0 auto;
-	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+	max-width:960px;
 	padding:30px;
 }
 /*--- TOP ----*/
@@ -202,6 +203,7 @@ input:focus{
 /*--- BOTTOM ----*/
 #bottom{
 	margin-left:20px;
+	min-height:350px;
 }
 .big-dollar{
 	position:absolute;

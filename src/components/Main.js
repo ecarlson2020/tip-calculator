@@ -18,7 +18,7 @@ export default class Main extends React.Component{
 
 	render(){
 		return (
-			<div id='main' className='border-radius01 flex'>
+			<div id='main' className='border-radius01 flex margin05 margin02'>
 				<Top num_people={this.state.num_people} tip_percent={this.state.tip_percent} />
 				<Bottom num_people={this.state.num_people} tip_percent={this.state.tip_percent} bill_amount={this.state.bill_amount} />
 			</div>

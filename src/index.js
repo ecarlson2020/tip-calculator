@@ -1,7 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './style.css'
 import Main from './components/Main'
+import './style.css'
+import './responsive.css'
 
 class Root extends React.Component{
 	render(){

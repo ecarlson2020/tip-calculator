@@ -1,0 +1,9 @@
+@media only screen and (max-width: 900px){
+	#main{
+		max-width:375px;/* per style-guide.md */
+	}
+	#top, #bottom{
+		width:100%;
+		margin:0;
+	}
+}
