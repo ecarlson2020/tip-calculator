@@ -8,7 +8,7 @@ export default class Top extends React.Component{
 	draw_tip_amount_boxes(){
 		return [5, 10, 15, 25, 50].map((el, i) => (
 			<div className='tip-box' key={i}>
-				<div className='bg01 color06 border-radius02 flex-center font02 margin03 padding01'>{el}%</div>
+				<div className='tip-box-inner cursor bg01 color06 border-radius02 flex-center font02 margin03 padding01'>{el}%</div>
 			</div>
 		))
 	}
@@ -20,7 +20,6 @@ export default class Top extends React.Component{
 	}
 
 	render(){
-		console.log('hey2');
 		return (
 			<div id='top'>
 				<div className='color02 font02'>Bill</div>
@@ -31,7 +30,7 @@ export default class Top extends React.Component{
 					{this.draw_tip_amount_boxes()}
 					<div className='tip-box'>
 						<div className='flex-center'>
-							<input type='number' className='cursor bg05 color01 border-radius02 margin03 padding01 font02 size01 custom-button' placeholder='Custom' />
+							<input type='number' className='tip-box-inner cursor bg05 color01 border-radius02 margin03 padding01 font02 size01 custom-button' placeholder='Custom' />
 						</div>
 					</div>
 				</div>

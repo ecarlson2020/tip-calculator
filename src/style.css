@@ -37,7 +37,7 @@ input[type=number] {
 	background:hsl(0, 0%, 100%);/* - White */
 }
 .bg07{
-	background:hsl(172, 67%, 45%)
+	background:hsl(172, 67%, 45%);/* - Primary */
 }
 .color01{
 	color:hsl(183, 100%, 15%);/* - Very dark cyan */
@@ -58,7 +58,7 @@ input[type=number] {
 	color:hsl(0, 0%, 100%);/* - White */
 }
 .color07{
-	color:hsl(172, 67%, 45%)
+	background:hsl(172, 67%, 45%);/* - Primary */
 }
 .color08{
 	color:hsl(13deg 59% 59%);/* - Red */
@@ -75,7 +75,7 @@ input{
 	transition:0.3s ease border;
 }
 input:focus{
-	outline:2px solid hsl(172, 67%, 45%);
+	outline:2px solid hsl(172, 67%, 45%);/* - Primary */
 }
 .uppercase{
 	text-transform:uppercase;
@@ -171,6 +171,17 @@ input:focus{
 }
 .tip-box{
 	width:33.33333%;
+}
+.tip-box-inner{
+	transition:0.3s ease all;
+}
+.tip-box-inner:hover{
+	background:hsl(185, 41%, 84%);/* - Light grayish cyan */
+	color:hsl(183, 100%, 15%);/* - Very dark cyan */
+}
+.tip-box-inner.active{
+	background:hsl(172, 67%, 45%);/* - Primary */
+	color:hsl(183, 100%, 15%);/* - Very dark cyan */
 }
 #tip-amount-container{
 	margin-left:-5px;
