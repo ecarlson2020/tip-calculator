@@ -58,7 +58,7 @@ input[type=number] {
 	color:hsl(0, 0%, 100%);/* - White */
 }
 .color07{
-	background:hsl(172, 67%, 45%);/* - Primary */
+	color:hsl(172, 67%, 45%);/* - Primary */
 }
 .color08{
 	color:hsl(13deg 59% 59%);/* - Red */
