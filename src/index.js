@@ -1,7 +1,7 @@
-'use strict';
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './style.css'
+import Main from './components/Main'
 
 class Root extends React.Component{
 	render(){
@@ -10,6 +10,7 @@ class Root extends React.Component{
 				<div className='text-center'>
 					<img id='logo' src='/images/logo.svg' />
 				</div>
+				<Main />
 			</div>
 		)
 	}
