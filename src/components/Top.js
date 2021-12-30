@@ -29,7 +29,7 @@ export default class Top extends React.Component{
 			})
 		},
 		bill_amount: () => {
-			var bill = d.querySelector("#bill-amount-input").value
+			var bill = +d.querySelector("#bill-amount-input").value
 
 			if(bill){
 				react_objs.main.setState({

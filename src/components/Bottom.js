@@ -3,10 +3,27 @@ import {react_objs} from '../functions'
 
 export default class Bottom extends React.Component{
 	get_tip_amount(){
-		return "0.05"
+		var s = react_objs.main.state
+
+		if(s.num_people && s.tip_percent && s.bill_amount){
+			return Math.trunc(
+				(s.bill_amount * s.tip_percent) / s.num_people
+			) / 100
+		}
+
+		return "0.00"
 	}
 
 	get_total(){
+		var s = react_objs.main.state
+
+		console.log(s.num_people , s.tip_percent , s.bill_amount);
+		if(s.num_people && s.tip_percent && s.bill_amount){
+			return Math.round(
+				(s.bill_amount * (1 + s.tip_percent / 100) * 100) / s.num_people
+			) / 100
+		}
+
 		return "0.00"
 	}
 
