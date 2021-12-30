@@ -20,7 +20,7 @@ export default class Bottom extends React.Component{
 						</div>
 					</div>
 				</div>
-				<div className='border-radius02 uppercase text-center font02 size01 bg02 button color01 padding01'>Reset</div>
+				<div className='border-radius02 uppercase text-center font02 size01 bg02 button color01 padding01 cursor'>Reset</div>
 			</div>
 		)
 	}

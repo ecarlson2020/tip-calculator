@@ -89,6 +89,9 @@ input{
 .border-radius03{
 	border-radius:10px;
 }
+.cursor{
+	cursor:pointer;
+}
 .margin01{
 	margin-top:10px;
 }
@@ -151,6 +154,9 @@ input{
 #tip-amount-container{
 	margin-left:-5px;
 	margin-right:-5px;
+}
+.custom-button{
+	padding-right:19%;
 }
 /*--- BOTTOM ----*/
 #bottom{
