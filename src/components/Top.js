@@ -19,9 +19,14 @@ export default class Top extends React.Component{
 	}
 
 	set_tip_percent(amount){
+		var custom = d.querySelector('#custom-tip-percent')
 		
-		//using custom tip percent input
-		amount = amount || +d.querySelector('#custom-tip-percent').value
+		if(amount){//using a tip box
+			custom.value = '';
+		}
+		else{//using custom tip percent input
+			amount = +custom.value
+		}
 
 		this.setState({
 			tip_percent: amount,
