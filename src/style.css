@@ -17,7 +17,16 @@ body{
 .bg01, body{
 	background:hsl(185, 41%, 84%);
 }
+.border-radius01{
+	border-radius:15px;
+}
 /*--- LOGO ----*/
 #logo{
 	margin:100px 0 50px 0;
+}
+/*--- MAIN ----*/
+#main{
+	background:#fff;
+	margin:0 auto;
+	width:70%;
 }
