@@ -81,7 +81,7 @@ input{
 	margin:5px;
 }
 .padding01{
-	padding:10px;
+	padding:5px;
 }
 .flex{
 	display:flex;
@@ -100,7 +100,7 @@ input{
 #main{
 	background:#fff;
 	margin:0 auto;
-	width:90%;
+	width:60%;
 	padding:30px;
 }
 /*--- TOP ----*/
