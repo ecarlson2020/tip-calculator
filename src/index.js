@@ -12,10 +12,6 @@ class Root extends React.Component{
 					<img id='logo' src='/images/logo.svg' />
 				</div>
 				<Main />
-				<img src='/design/active-states.jpg' />
-				<img src='/design/desktop-design-completed.jpg' />
-				<img src='/design/desktop-design-empty.jpg' />
-				<img src='/design/mobile-design.jpg' />
 			</div>
 		)
 	}
