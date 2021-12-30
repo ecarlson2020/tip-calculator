@@ -5,7 +5,11 @@ import './style.css'
 
 class Root extends React.Component{
 	render(){
-		return <div>getting started</div>
+		return (
+			<div>
+				<img src='/images/logo.svg' />
+			</div>
+		)
 	}
 }
 
