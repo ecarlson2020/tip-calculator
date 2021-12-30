@@ -7,7 +7,9 @@ class Root extends React.Component{
 	render(){
 		return (
 			<div>
-				<img src='/images/logo.svg' />
+				<div className='text-center'>
+					<img id='logo' src='/images/logo.svg' />
+				</div>
 			</div>
 		)
 	}

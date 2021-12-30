@@ -1,3 +1,23 @@
+/*
+	- Very dark cyan: hsl(183, 100%, 15%)
+	- Dark grayish cyan: hsl(186, 14%, 43%)
+	- Dark grayish cyan: hsl(184, 14%, 56%)
+	- Light grayish cyan: hsl(185, 41%, 84%)
+	- Light grayish cyan: hsl(189, 41%, 97%)
+	- White: hsl(0, 0%, 100%)
+
+*/
+/*--- GENERAL ----*/
 body{
 	margin:0;
+}
+.text-center{
+	text-align:center;
+}
+.bg01, body{
+	background:hsl(185, 41%, 84%);
+}
+/*--- LOGO ----*/
+#logo{
+	margin:100px 0 50px 0;
 }
