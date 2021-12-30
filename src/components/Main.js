@@ -20,7 +20,7 @@ export default class Main extends React.Component{
 		return (
 			<div id='main' className='border-radius01 flex'>
 				<Top num_people={this.state.num_people} tip_percent={this.state.tip_percent} />
-				<Bottom />
+				<Bottom num_people={this.state.num_people} tip_percent={this.state.tip_percent} bill_amount={this.state.bill_amount} />
 			</div>
 		)
 	}
