@@ -8,13 +8,23 @@
 
 */
 @font-face{
-	font-family:'font1';
+	font-family:'font01';
 	src:url('fonts/SpaceMono-Regular.ttf');
+}
+@font-face{
+	font-family:'font02';
+	src:url('fonts/SpaceMono-Bold.ttf');
 }
 /*--- GENERAL ----*/
 body{
 	margin:0;
-	font-family:'font1';
+	font-family:'font01';
+}
+.font01{
+	font-family:'font01';
+}
+.font02{
+	font-family:'font02';
 }
 .text-center{
 	text-align:center;
@@ -25,8 +35,8 @@ body{
 .border-radius01{
 	border-radius:15px;
 }
-.grey01{
-	color:#ccc;
+.color01{
+	color:#777;
 }
 /*--- LOGO ----*/
 #logo{
