@@ -3,8 +3,8 @@ import React from 'react'
 export default class Top extends React.Component{
 	draw_tip_amount_boxes(){
 		return [5, 10, 15, 25, 50].map((el, i) => (
-			<div className='margin03 tip-box'>
-				<div className='bg01 color06 border-radius02 flex-center font02' key={i}>{el}%</div>
+			<div className='tip-box'>
+				<div className={'bg01 color06 border-radius02 flex-center font02' + ((i + 1) % 3 !== 0 ? ' margin03' : "")} key={i}>{el}%</div>
 			</div>
 		))
 	}

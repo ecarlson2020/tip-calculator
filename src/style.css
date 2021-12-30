@@ -77,6 +77,9 @@ input{
 .margin02{
 	margin-bottom:30px;
 }
+.margin03{
+	margin-right:10px;
+}
 .flex{
 	display:flex;
 	flex-wrap:wrap;
@@ -107,8 +110,5 @@ input{
 	margin-left:17px;
 }
 .tip-box{
-	width:calc(33.33333% - 10px);
-	border:5px solid red;
-	border-collapse:collapse;
-	margin:-5px;
+	width:33.33333%;
 }
