@@ -71,6 +71,9 @@ input{
 .border-radius02{
 	border-radius:6px;
 }
+.border-radius03{
+	border-radius:10px;
+}
 .margin01{
 	margin-top:10px;
 }
@@ -79,6 +82,9 @@ input{
 }
 .margin03{
 	margin:5px;
+}
+.margin04{
+	padding:0 15px;
 }
 .padding01{
 	padding:5px;
@@ -107,8 +113,11 @@ input{
 	padding:30px;
 }
 /*--- TOP ----*/
+#top, #bottom{
+	width:calc(50% - 20px);
+}
 #top{
-	width:50%;
+	margin-right:20px;
 }
 #dollar-svg, #person-svg{
 	position:absolute;
@@ -121,4 +130,8 @@ input{
 #tip-amount-container{
 	margin-left:-5px;
 	margin-right:-5px;
+}
+/*--- BOTTOM ----*/
+#bottom{
+	margin-left:20px;
 }
