@@ -50,7 +50,7 @@ body{
 input{
 	width:100%;
 	border:0;
-	padding:10px;
+	padding:10px 20px;
 	text-align:right;
 }
 .size01{
@@ -113,7 +113,7 @@ input{
 #dollar-svg, #person-svg{
 	position:absolute;
 	margin-top:29px;
-	margin-left:10px;
+	margin-left:20px;
 }
 .tip-box{
 	width:33.33333%;
