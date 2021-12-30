@@ -6,6 +6,17 @@
 	font-family:'font02';
 	src:url('fonts/SpaceMono-Bold.ttf');
 }
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
 /*--- GENERAL ----*/
 .bg01{
 	background:hsl(183, 100%, 15%);/* - Very dark cyan */

@@ -14,20 +14,20 @@ export default class Top extends React.Component{
 			<div id='top'>
 				<div className='color02 font02'>Bill</div>
 				<img id='dollar-svg' src='/images/icon-dollar.svg' />
-				<input className='color01 cursor border-radius02 margin01 margin02 bg05 font02 size01' type='text' placeholder='0' />
+				<input className='color01 cursor border-radius02 margin01 margin02 bg05 font02 size01' type='number' placeholder='0' />
 				<div className='color02 font02'>Select Tip %</div>
 				<div id='tip-amount-container' className='margin01 margin02 flex size01'>
 					{this.draw_tip_amount_boxes()}
 					<div className='tip-box'>
 						<div className='flex-center'>
-							<input className='cursor bg05 color01 border-radius02 margin03 padding01 font02 size01 custom-button' placeholder='Custom' />
+							<input type='number' className='cursor bg05 color01 border-radius02 margin03 padding01 font02 size01 custom-button' placeholder='Custom' />
 						</div>
 					</div>
 				</div>
 				<div className='color02 font02'>Number of People</div>
 				<div className='relative'>
 					<img id='person-svg' src='/images/icon-person.svg' />
-					<input className='color01 cursor border-radius02 margin01 margin02 bg05 font02 size01' type='text' placeholder='0' />
+					<input className='color01 cursor border-radius02 margin01 margin02 bg05 font02 size01' type='number' placeholder='0' />
 				</div>
 			</div>
 		)
