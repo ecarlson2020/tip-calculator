@@ -58,6 +58,10 @@ input{
 	border:0;
 	padding:10px 20px;
 	text-align:right;
+	transition:0.3s ease border;
+}
+input:focus{
+	outline:2px solid hsl(172, 67%, 45%) !important;
 }
 .uppercase{
 	text-transform:uppercase;
