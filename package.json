@@ -5,7 +5,7 @@
     "react-dom": "^17.0.2"
   },
   "scripts": {
-    "start": "npx webpack-dev-server --mode development --devtool source-map"
+    "start": "npm i && npx webpack-dev-server --mode development --devtool source-map"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.15.8",
